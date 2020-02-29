@@ -43,7 +43,7 @@ def total_gross(source)
    total_gross = directors_totals(source)
    index += 1 
   end
-
+total_gross
   # Write this implementation
   #
   # Should use methods:
