@@ -46,6 +46,7 @@ def total_gross(source)
    index += 1 
   end
 total_gross
+
   # Write this implementation
   #
   # Should use methods:
