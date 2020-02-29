@@ -36,10 +36,13 @@ def list_of_directors(source)
 
 end 
 def total_gross(source)
-  total_gross = {}
+  total_gross = 0
   index = 0
+  director_hash = directors_totals(source)
+  director_names = list_of_directors(source)
   while index < source.length do
-   total_gross = directors_totals(source)
+   director_name = director_names[index]  
+   total_gross += directors_totals[director_name]
    index += 1 
   end
 total_gross
